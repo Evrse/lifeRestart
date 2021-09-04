@@ -2722,7 +2722,7 @@
         "event": "练气。",
         "postEvent": "体质提升。",
         "effect": {
-            "STR": 1
+            "STR": 2
         },
         "include": "TLT?[1048]",
         "exclude": "EVT?[10333]"
@@ -2831,7 +2831,7 @@
         "event": "锻体。",
         "postEvent": "体质提升。",
         "effect": {
-            "STR": 2
+            "STR": 4
         },
         "include": "(EVT?[10333])&(STR>100)&(TLT?[1048])",
         "exclude": "EVT?[10345,10361]"
@@ -3082,8 +3082,8 @@
         "event": "蕴丹。",
         "postEvent": "体质、智力提升。",
         "effect": {
-            "INT": 1,
-            "STR": 3
+            "INT": 2,
+            "STR": 6
         },
         "include": "(EVT?[10345,10361])&(STR>400)&(TLT?[1048])",
         "exclude": "EVT?[10365]"
@@ -3130,7 +3130,7 @@
         "id": 10367,
         "event": "悟道。",
         "effect": {
-            "INT": 2
+            "INT": 4
         },
         "include": "(EVT?[10365])&(INT>100)&(TLT?[1048])"
     },
